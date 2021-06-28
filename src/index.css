@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  font: normal normal 300 24px/28px Roboto;
+}
+
+.books-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.books-wrapper:after {
+  display: block;
+  width: 360px;
+  content: '';
+}
+
+.filter {
+  border-bottom: 1px solid #023047;
+  padding: 20px 0 16px 0;
+  margin-bottom: 38px;
+}
+
+.wrapper_filter {
+  display: flex;
+}
+
+.filter__section {
+  flex: 1;
+}
+
+.filter .filter__section:first-child {
+  margin-right: 1em;
+}
+
+.Collapsible__trigger {
+  font: normal normal 300 18px/1 Roboto;
+  padding: 5px 0 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #8ECAE6;
+  cursor: pointer;
+  position: relative;
+}
+
+.Collapsible__trigger:before {
+  content: "\f078"; 
+  font-family: FontAwesome;
+  right: 0;
+  position: absolute;
+  top: 5px;
+  width: 18px;
+  color: #219EBC;
+  transform: rotate(180deg);
+}
+
+.Collapsible__trigger.is-closed:before {
+  transform: rotate(360deg);
+}
+
+.Collapsible__contentInner {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.Collapsible__contentInner {
+  margin-top: 16px;
+} 
+
+.filter__section input[type="checkbox"] {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.filterTags {
+  margin-bottom: 15px;
+}
+
+.filter__section input[type="checkbox"] + label {
+  cursor: pointer;
+  margin-right: 20px;
+ 
+}
+
+.filter__section input[type="checkbox"] + label:before {
+  height: 13px;
+  width: 13px;
+  border: 2px solid #219EBC;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  background: #fff;
+  border-radius: 2px;
+  content: "\F14A";
+  font: normal normal normal 20px/24px FontAwesome;
+  color: transparent;
+  margin-top: -1px;
+}
+
+.filter__section input[type="checkbox"]:checked + label:before {
+  color: #219EBC;
+  margin-top: -11px;
+  border: none;
+  margin-right: 14px;
+}
+
+.filter__section_tags {
+  margin-bottom: -12px;
+}
+
+.booksBlock {
+  width: 360px;
+  border: 1px solid #8ECAE6;
+  background: #fff;
+  padding: 1em;
+  margin-bottom: 2em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Mobile */
+@media all and (max-width: 1110px) {
+  .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media all and (max-width: 765px) {
+  .books-wrapper {
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .filterPrices {
+    margin-bottom: 15px;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .books-wrapper {
+    justify-content: center;
+  }
+
+  .booksBlock {
+    width: 340px;
+  }
+
+  .ellipsis {
+    width: 320px;
+  }
+}

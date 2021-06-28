@@ -1,0 +1,76 @@
+{
+  "books": [
+    {
+      "id": "b1",
+      "title": "You Don't Know JS Yet: Get Started",
+      "authorId": "a1",
+      "price": "$18.95",
+      "description": "The worldwide best selling \"You Don't Know JS\" book series is back for a 2nd edition: \"You Don't Know JS Yet\". All 6 books are brand new, rewritten to cover all sides of JS for 2020 and beyond. \"Get Started\" prepares you for the journey ahead, first surveying the language then detailing how the rest of the You Don't Know JS Yet book series guides you to knowing JS more deeply.",
+      "tags": ["javascript", "fundamentals"]
+    },
+    {
+      "id": "b2",
+      "title": "You Don't Know JS Yet: Scope & Closures",
+      "authorId": "a1",
+      "price": "$23.95",
+      "description": "The worldwide best selling \"You Don't Know JS\" book series is back for a 2nd edition: \"You Don't Know JS Yet\". All 6 books are brand new, rewritten to cover all sides of JS for 2020 and beyond. \"Scope & Closures\" examines all aspects of lexical scope, then builds on these principles to leverage the power of closure, and finally digs into the module pattern for better program structure.",
+      "tags": ["javascript", "fundamentals"]
+    },
+    {
+      "id": "b3",
+      "title": "You Don't Know JS: Async & Performance",
+      "authorId": "a1",
+      "price": "$29.50",
+      "description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this concise yet in-depth guide focuses on new asynchronous features and performance techniques—including Promises, generators, and Web Workers—that let you create sophisticated single-page web applications and escape callback hell in the process.",
+      "tags": ["javascript", "advanced"]
+    },
+    {
+      "id": "b4",
+      "title": "Inclusive Design Patterns",
+      "authorId": "a2",
+      "price": "$9.99",
+      "description": "This book looks at common interface patterns from the perspective of an inclusive designer—someone trained in building experiences that cater to the huge diversity of abilities, preferences and circumstances out there.",
+      "tags": ["accessibility", "javascript", "css"]
+    },
+    {
+      "id": "b5",
+      "title": "Apps For All: Coding Accessible Web Applications",
+      "authorId": "a2",
+      "price": "$10.40",
+      "description": "Web accessibility is quite a large topic — far too large to fit into a small book. So, what will this book cover? Though we shall encounter visual design challenges, deal with performance issues, and adopt progressive enhancement — all of which are accessibility concerns — the underlying theme of this book is about making the interactivity of web applications include keyboard and screen reader users.",
+      "tags": ["accessibility", "javascript", "css"]
+    },
+    {
+      "id": "b6",
+      "title": "SVG Animations: From Common UX Implementations to Complex Responsive Animation",
+      "authorId": "a3",
+      "price": "$30.99",
+      "description": "SVG is extremely powerful, with its reduced HTTP requests and crispness on any display. It becomes increasingly more interesting as you explore its capabilities for responsive animation and performance boons. When you animate SVG, you must be aware of normal image traits like composition, color, implementation, and optimization. But when you animate, it increases the complexity of each of these factors exponentially. This practical book takes a deep dive into how you can to solve these problems with stability, performance, and creativity in mind.",
+      "tags": ["svg", "javascript", "css"]
+    },
+    {
+      "id": "b7",
+      "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+      "authorId": "a4",
+      "price": "$7.34",
+      "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems.",
+      "tags": ["css", "advanced"]
+    },
+    {
+      "id": "b8",
+      "title": "Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming",
+      "authorId": "a5",
+      "price": "$23.99",
+      "description": "This much anticipated and thoroughly revised third edition of Eloquent JavaScript dives deep into the JavaScript language to show you how to write beautiful, effective code. It has been updated to reflect the current state of Java¬Script and web browsers and includes brand-new material on features like class notation, arrow functions, iterators, async functions, template strings, and block scope. A host of new exercises have also been added to test your skills and keep you on track.",
+      "tags": ["javascript", "fundamentals"]
+    },
+    {
+      "id": "b9",
+      "title": "Micro Frontends in Action",
+      "authorId": "a6",
+      "price": "$49.99",
+      "description": "Browser-based software can quickly become complex and difficult to maintain, especially when it’s implemented as a large single-page application. By adopting the micro frontends approach and designing your web apps as systems of features, you can deliver faster feature development, easier upgrades, and pick and choose the technology you use in your stack. Micro Frontends in Action is your guide to simplifying unwieldy frontends by composing them from small, well-defined units.",
+      "tags": ["architecture", "advanced"]
+    }
+  ]
+}
